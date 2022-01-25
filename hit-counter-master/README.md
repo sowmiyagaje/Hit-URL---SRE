@@ -92,13 +92,13 @@ You can test your application and its dependency (Redis) using docker-compose.
     docker_web_1        python ./app.py                  Up      0.0.0.0:80->5000/tcp
     
     $ curl localhost
-    I have been hit 1 times since deployment.
+    Hola! we have hit 1 times
     
     $ curl localhost
-    I have been hit 2 times since deployment.
+    Hola! we have hit 2 times
     
     $ curl localhost
-    I have been hit 3 times since deployment.
+    Hola! we have hit 3 times
 
  ### Deployment steps
 I have tested this on Google Kubernetes Engine. Let's check that we have the cluster available:
@@ -139,13 +139,13 @@ I have tested this on Google Kubernetes Engine. Let's check that we have the clu
 Let's test our application hiting the public IP address:
 
     $ curl 35.204.171.197
-    I have been hit 1 times since deployment.
+    Hola! we have hit 1 times
     
     $ curl 35.204.171.197
-    I have been hit 2 times since deployment.
+    Hola! we have hit 2 times
     
     $ curl 35.204.171.197
-    I have been hit 3 times since deployment.
+    Hola! we have hit 3 times
 
 #### Cleanup
 To do some cleanup, run the following commands:
@@ -195,7 +195,7 @@ We still need to create a _Service_ in order for our app to communicate with Red
 Test the Deployment:
 
     $ curl 35.204.129.161
-    I have been hit 17 times since deployment.
+    Hola! we have hit 17 times
    
 #### Cleanup
 To do some cleanup, run the following commands:
