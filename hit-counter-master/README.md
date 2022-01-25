@@ -24,7 +24,7 @@ Download/pull this repository:
 `git clone https://github.com/sowmiyagaje/Hit-URL---SRE.git`
 
 Go to the newly created directory
-`cd hit-counter`
+`cd hit-counter-master`
 
 Build and tag your docker image
 
@@ -51,10 +51,10 @@ Build and tag your docker image
 
 Make sure to push the image to docker hub:
 
-    $ docker tag hit-counter calinrus/hit-counter
+    $ docker tag hit-counter-master calinrus/hit-counter-master
     
-    $ docker push calinrus/hit-counter
-    The push refers to a repository [docker.io/calinrus/hit-counter]
+    $ docker push calinrus/hit-counter-master
+    The push refers to a repository [docker.io/calinrus/hit-counter-master]
     898d7f171bf4: Pushed 
     48f330753248: Pushed 
     8096265db166: Pushed 
