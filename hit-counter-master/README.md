@@ -21,14 +21,14 @@ The app is written in Python, using Flask framework
  ### Building/testing steps
 
 Download/pull this repository:
-`git clone https://github.com/rustudorcalin/hit-counter.git`
+`git clone https://github.com/sowmiyagaje/Hit-URL---SRE.git`
 
 Go to the newly created directory
 `cd hit-counter`
 
 Build and tag your docker image
 
-    $ docker build -t hit-counter . 
+    $ docker build -t hit-counter-master . 
     Sending build context to Docker daemon  7.68 kB
     Step 1/6 : FROM python:2-alpine
     ---> 5082b69714da
