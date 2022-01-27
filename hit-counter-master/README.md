@@ -8,7 +8,7 @@ Description: Retrives number of hits for the current deployment.
 Request:       `GET /`
 
 Response:     `HTTP/1.1 200 OK`
-`Hola! we have hit 1 times.`
+`Hola! we have hit 9 times.`
 
 ### Details
 
